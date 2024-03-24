@@ -5,17 +5,17 @@
 The Invoice System is a robust Spring Boot application designed to streamline invoice management processes. Leveraging modern web technologies, it provides a comprehensive set of RESTful APIs for generating invoices, facilitating payments, and retrieving detailed invoice information. The system integrates Swagger for API documentation and H2 Console for convenient database access.
 
 ## Features
-. Invoice Generation: Create new invoices with specified amounts and customer details.
-. Invoice Payment: Mark invoices as paid once payments are received.
-. Invoice Retrieval: Retrieve invoices by various parameters such as customer email or phone number.
-. Swagger API Documentation: Easily explore and understand the available APIs with Swagger UI integration.
-. H2 Console Access: Seamlessly interact with the underlying H2 in-memory database through the H2 Console.
+1. Invoice Generation: Create new invoices with specified amounts and customer details.
+2. Invoice Payment: Mark invoices as paid once payments are received.
+3. Invoice Retrieval: Retrieve invoices by various parameters such as customer email or phone number.
+4. Swagger API Documentation: Easily explore and understand the available APIs with Swagger UI integration.
+5. H2 Console Access: Seamlessly interact with the underlying H2 in-memory database through the H2 Console.
 
 ## Getting started
 Prerequisites
-. Java Development Kit (JDK) 17 or higher
-. Maven build tool
-. Git (optional)
+1. Java Development Kit (JDK) 17 or higher
+2. Maven build tool
+3. Git (optional)
 
 
 ## Installation
@@ -43,10 +43,10 @@ The application includes a suite of JUnit test cases to ensure robustness and re
 mvn test
 
 ## Dependencies
-. Spring Boot: Provides a powerful framework for building and running Spring-based applications.
-. Spring Data JPA: Simplifies data access and manipulation through the JPA specification.
-. Spring Web: Enables the development of web applications and RESTful APIs.
-. Springfox Swagger: Facilitates API documentation with Swagger UI integration.
-. H2 Database: Offers an in-memory database solution for development and testing.
-. Lombok: Reduces boilerplate code and enhances code readability.
-. JUnit: Supports unit testing to ensure code quality and reliability.
+1. Spring Boot: Provides a powerful framework for building and running Spring-based applications.
+2. Spring Data JPA: Simplifies data access and manipulation through the JPA specification.
+3. Spring Web: Enables the development of web applications and RESTful APIs.
+4. Springfox Swagger: Facilitates API documentation with Swagger UI integration.
+5. H2 Database: Offers an in-memory database solution for development and testing.
+6. Lombok: Reduces boilerplate code and enhances code readability.
+7. JUnit: Supports unit testing to ensure code quality and reliability.
